@@ -1,6 +1,6 @@
 package main.bookapp;
 
-import books.in.memory.storage.service.InMemoryBooksService;
+import books.inmemory.storage.service.InMemoryBooksService;
 import books.storage.api.entities.Book;
 import books.storage.api.service.BooksService;
 

@@ -1,4 +1,4 @@
 module main {
-    requires books.in.memory.storage;
+    requires books.inmemory.storage;
     requires books.storage.api;
 }
