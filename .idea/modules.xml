@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/books.inmemory.storage/books.inmemory.storage.iml" filepath="$PROJECT_DIR$/books.inmemory.storage/books.inmemory.storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/books.json.printer/books.json.printer.iml" filepath="$PROJECT_DIR$/books.json.printer/books.json.printer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/books.printer.api/books.printer.api.iml" filepath="$PROJECT_DIR$/books.printer.api/books.printer.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/books.simpletext.printer/books.simpletext.printer.iml" filepath="$PROJECT_DIR$/books.simpletext.printer/books.simpletext.printer.iml" />
       <module fileurl="file://$PROJECT_DIR$/books.storage.api/books.storage.api.iml" filepath="$PROJECT_DIR$/books.storage.api/books.storage.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-modularity-demo.iml" filepath="$PROJECT_DIR$/.idea/java-modularity-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />

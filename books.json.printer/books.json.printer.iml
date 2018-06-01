@@ -8,10 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="books.storage.api" />
-    <orderEntry type="module" module-name="books.inmemory.storage" />
-    <orderEntry type="module" module-name="books.json.printer" />
     <orderEntry type="module" module-name="books.printer.api" />
-    <orderEntry type="module" module-name="books.simpletext.printer" />
+    <orderEntry type="library" name="mods" level="project" />
+    <orderEntry type="module" module-name="books.storage.api" />
   </component>
 </module>
