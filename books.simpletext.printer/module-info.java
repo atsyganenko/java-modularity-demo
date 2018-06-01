@@ -3,4 +3,6 @@ module books.simpletext.printer {
     requires books.storage.api;
 
     exports books.simpletext.printer;
+
+    provides books.printer.api.BookPrinter with books.simpletext.printer.SimpleTextBookPrinter;
 }

@@ -6,4 +6,7 @@ module books.json.printer {
     requires com.fasterxml.jackson.databind;
 
     exports books.json.printer;
+
+
+    provides books.printer.api.BookPrinter with books.json.printer.JsonBookPrinter;
 }

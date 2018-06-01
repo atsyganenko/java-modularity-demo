@@ -1,4 +1,4 @@
 
-javac --module-source-path . -d out $(find . -name '*.java') -m books.storage.api,main,books.inmemory.storage
+javac -cp 'lib/*' --module-source-path . --module-path mods -d out $(find . -name '*.java')
 
-java --module-path out -m main/main.bookapp.BookApp;
+java -cp 'lib/*' --add-opens java.base/java.lang=guice --module-path out:mods -m main/main.bookapp.BookApp

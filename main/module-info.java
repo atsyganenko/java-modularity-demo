@@ -1,5 +1,6 @@
 module main {
     requires books.inmemory.storage;
-    requires books.simpletext.printer;
-    requires books.json.printer;
+    requires guice;
+    requires books.printer.api;
+    uses books.printer.api.BookPrinter;
 }
