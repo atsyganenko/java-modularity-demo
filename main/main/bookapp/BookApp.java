@@ -1,8 +1,8 @@
 package main.bookapp;
 
 import books.inmemory.storage.service.InMemoryBooksService;
-import books.inmemory.storage.api.entities.Book;
-import books.inmemory.storage.api.service.BooksService;
+import books.storage.api.entities.Book;
+import books.storage.api.service.BooksService;
 
 public class BookApp {
 

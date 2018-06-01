@@ -1,6 +1,6 @@
-package books.inmemory.storage.api.service;
+package books.storage.api.service;
 
-import books.inmemory.storage.api.entities.Book;
+import books.storage.api.entities.Book;
 
 public interface BooksService {
   Book getBook(int id);

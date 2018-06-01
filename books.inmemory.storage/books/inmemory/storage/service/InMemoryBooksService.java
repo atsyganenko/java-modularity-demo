@@ -1,8 +1,8 @@
 package books.inmemory.storage.service;
 
 import books.inmemory.storage.entities.BookEntity;
-import books.inmemory.storage.api.entities.Book;
-import books.inmemory.storage.api.service.BooksService;
+import books.storage.api.entities.Book;
+import books.storage.api.service.BooksService;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.ConcurrentHashMap;

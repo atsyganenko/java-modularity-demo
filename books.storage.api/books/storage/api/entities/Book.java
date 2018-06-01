@@ -1,4 +1,4 @@
-package books.inmemory.storage.api.entities;
+package books.storage.api.entities;
 
 public interface Book {
   int getId();

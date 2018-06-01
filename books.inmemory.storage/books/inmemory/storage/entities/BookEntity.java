@@ -1,6 +1,6 @@
 package books.inmemory.storage.entities;
 
-import books.inmemory.storage.api.entities.Book;
+import books.storage.api.entities.Book;
 
 public class BookEntity implements Book {
   private int id;
